@@ -1,4 +1,7 @@
 #!/bin/bash
+echo "-------------------------------"
+echo "--------Prime Number Code------"
+echo "-------------------------------"
 read -p "Enter a Number:-" no
 non=`echo $no-1|bc`
 for i in `eval echo {2..$non}`
