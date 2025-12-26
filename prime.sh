@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "-------------------------------"
 echo "--------Prime Number Code------"
+echo "-------Author:- Arun ----------:
 echo "-------------------------------"
 read -p "Enter a Number:-" no
 non=`echo $no-1|bc`
